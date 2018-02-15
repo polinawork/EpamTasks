@@ -1,0 +1,422 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    margin: 0;
+}
+.HeaderSharePoint{
+    width: 100%;
+    height: 28px;
+    background-color: #39c2d7; 
+}
+#Logo_HeaderSharePoint{
+    height: 28px;
+    width: auto;
+    color: white;
+    background-color: #39c2d7;
+    float: left;
+}
+#Logo_HeaderSharePoint img{
+    width: auto;
+    height: 100%;
+    float: left;
+}
+#Logo_HeaderSharePoint p{
+    width: auto;
+    height: 100%;
+    float: right;
+    font-family: serif;
+    font-size: 100%;
+    text-align: right;
+    margin: 0px;
+    padding: 5px;
+    
+}
+#Right_HeaderSharePoint{
+    height: 28px;
+    width: auto;
+    float: right;
+    font-family: serif;
+}
+#Right_HeaderSharePoint nav{ 
+    height: auto;
+    width: auto;
+    float: left;
+    background-color: #39c2d7;
+    margin: 5px 32px auto auto;
+
+        
+}
+#Right_HeaderSharePoint nav a{
+    height: 28px;
+    width: auto;
+    color: white;
+    text-decoration: none;
+    margin: auto 6px;
+    background-color: #39c2d7;
+}
+#NameUser{
+    width: auto;
+    height: 28px;
+    background-color: #eeeeee;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+#NameUser p{
+    width: auto;
+    height: 28px;
+    float: left;
+    margin: 5px 20px 0px 30px;
+    padding: 0px;
+        
+}
+#NameUser div{
+    float: right;
+    width: auto;
+    height: 28px;
+    margin: 0px 10px 0px 0px;
+}
+#NameUser img{
+    width: auto;
+    height: 28px;
+}
+.NavSharePoint{
+    clear: both;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 32px;
+    margin: 0px;
+}
+.NavSharePoint nav{
+    background-color: #eeeeee;
+    float: left;
+    margin: 7px 20px 0px 30px;
+}
+.NavSharePoint nav a{
+    color: #666666;
+    text-decoration: none;
+    margin: auto auto auto 28px;
+    font-family: sans-serif;
+    font-size: 80%;
+}
+#Link_NavSharePoint{
+    background-color: #eeeeee;
+    float: right;
+    width: auto;
+    height: 32px;
+    padding: 0px 0px 0px 10px;
+    
+}
+#Link_NavSharePoint a{
+    display: inline-block;
+    height: 32px;
+    width: auto;
+    color: #999999;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 80%;
+    line-height: 120%;
+    margin: 0px 10px;
+    
+}
+#Link_NavSharePoint a div{
+    height: 32px;
+    width: auto;
+    margin:  0px;
+    padding: 0px;
+}
+#Link_NavSharePoint p{
+    height: 32px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    margin: 0px;
+    padding: 8px 0px 8px 2px;
+}
+#Link_NavSharePoint img{
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.HeaderEpam{
+    clear: both;
+    background-color: #464547;
+    height: 62px;
+    width: 100%;
+}
+.HeaderEpam img{
+    width: auto;
+    height: 100%;
+    float: left;
+}
+.HeaderEpam p{
+    
+    margin: 0px;
+    padding: 0px;
+}
+#Search p{
+    float: right;
+    height: 60px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+.Content{
+    clear: both;
+    background-color: #ffffff;
+    width: 100%;
+    height: calc(100% - 182.5px);
+    margin: 0px;
+    position: absolute;
+}
+#Nav_Content{
+    background-color: #39c2d7;
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 0px;
+}
+
+#Nav_Content button{
+    background-color: #39c2d7;
+    width: 100%;
+    height: 49px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: left;
+    font-family: serif;
+    font-size: 120%;
+}
+#Nav_Content button div{
+    width: 100%;
+    height: 49px;
+    display: inline-block;
+}
+#Nav_Content button img{
+    width: 62px;
+    height: 49px;
+    float: left;
+}
+#Nav_Content button p{
+    display: inline-block;
+    height: 49px;
+    margin: 7px 0px 0px 0px;
+    float: left;
+    padding: 8px 0px 8px 2px;
+    text-align: left;
+    font-family: serif;
+}
+.Main{
+    background-color: white;
+    float: right;
+    width: 85%;
+    height: 100%;
+    margin: 0px;
+}
+.Calendar{
+    float: left;
+    width: 77%;
+    height: 96%;
+    margin: 1% 0.5% 1% 1%;
+}
+.Calendar header{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #666666;
+    border: 2px solid #666666;
+}
+.Calendar header div{
+    margin: 5px;
+    float: left;
+}
+.Calendar header p{
+    display: inline-block;
+    margin: 11px;
+}
+.Table{
+    width: 100%;
+    height: 97%;
+    border: 1px solid #e6e6e6;
+    
+}
+
+.Table table{
+    width: 98%;
+    height: inherit;
+    margin: 0px 1%; 
+    border-collapse: collapse;
+}
+.Table .DayCalendar th{
+    border: 2px solid #d4d4d4;
+    width: 14%;
+    height: auto;
+    text-align: left;   
+    font-size: 95%;
+    font-family: sans-serif;
+    font-weight: lighter;   
+    padding: 0% 0% 0% 0%;
+    margin: 0px;
+    vertical-align: top;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+.NameDay th{
+    width: 14%;
+    color: #666666;
+    height: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 5px 5px 5px 15px;
+}
+.DayCalendar p{
+    width: 126%;
+    height: inherit;
+    padding: 0%;
+    margin: 6% 0px 3% 6%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    
+}
+.DayCalendar ul{
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0% 0% 0% 0%;
+    padding: 0px;
+    position: absolute;
+    width: inherit;
+    height: auto;
+    
+}
+.DayCalendar .TwoCol{
+    width: 125%;
+    height: inherit;
+    padding: 2px 0px 2px 5px;
+    margin: 0px 0px 1px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.DayCalendar .FullCol{
+    width: 191%;
+    height: inherit;
+    padding: 2px 0px 2px 5px;
+    margin: 0px 0px 1px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.DayCalendar .OneCol{
+    width: 60%;
+    height: inherit;
+    padding: 2px 0px 2px 5px;
+    margin: 0px 0px 1px 0px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+.DayCalendar .GreenTask{
+    background-color: #a3c644;
+    color: white;
+    border-left: 5px solid #6a812c;
+}
+.DayCalendar .RedTask{
+    background-color: #b32746;
+    color: white;
+    border-left: 5px solid #75192e;
+}
+.DayCalendar .YellowTask{
+    background-color: #ecc134;
+    color: white;
+    border-left: 5px solid #9a7e22;
+}
+.DayCalendar .PurpleTask{
+    background-color: #937ebd;
+    color: white;
+    border-left: 5px solid #60527b;
+}
+.DayCalendar .BlueTask{
+    background-color: #39b7ac;
+    color: white;
+    border-left: 5px solid #257770;
+}
+.DayCalendar .MoreItem{
+    color: #808080;
+    margin: 0% 0% 0% 0%;
+    padding: 0px;
+}
+.OnControl{
+    float: right;
+    width: 20%;
+    height: 96%;
+    margin: 1% 1% 1% 0.5%;
+    
+}
+.OnControl header{
+    background-color: #666666;
+    height: 40px;
+    width: 100%;
+    color: white;
+    border: 2px solid #666666;
+   
+}
+.OnControl header img{
+    float: left;
+}
+.OnControl header p{
+    height: 40px;
+    display: inline-block;
+    margin: 12px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
+}
+.TableOnControl{
+    width: 100%;
+    height: 94%;
+    border: 2px solid #e6e6e6;
+}
+.TableOnControl table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.TableOnControl th{
+    width: 35%;
+    padding: 10px 10px;
+}
+.TableOnControl .Firstth{
+    width: 30%;
+    padding: 10px 10px;
+}
+.Greytr{
+    background-color: #f1f1f1;
+}
+footer{
+    clear: both;
+    background-color: #464547;
+    width: 100%;
+    height: 60px;
+    color: #cccccc;
+    font-size: 70%;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+footer p{
+    float: left;
+    margin: 25px auto 25px 20px;
+}
+footer div{
+    float: right;
+    margin: 25px 20px 25px 20px;
+}
+footer div a{
+    color: #cccccc;
+    text-decoration: none;
+}
+footer div span{
+    margin: 0px 20px;
+}
